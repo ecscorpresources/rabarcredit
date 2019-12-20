@@ -25,22 +25,22 @@ const Pagenav = props => {
           <Nav navbar className="homeNavLinks">
             <NavItem>
               <NavLink href="monhkey" className="links">
-                Departments
+                How It Works
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monhkey" className="links">
-                Meet A Doctor
+                Get A Loan
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monkhey" className="links">
-                Partners
+                Pay Back Loan
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monkhey" className="links">
-                About Us
+                Let's Talk
               </NavLink>
             </NavItem>
           </Nav>
@@ -48,12 +48,12 @@ const Pagenav = props => {
           <Nav navbar className="homeLoginSignup">
             <NavItem>
               <NavLink href="monhkey" className="loginsignup login">
-                Sign Up
+                LOG IN
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="monhkey" className="loginsignup signup">
-                Sign In
+                SIGN UP
               </NavLink>
             </NavItem>
           </Nav>
