@@ -25,12 +25,12 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
+/* @font-face {
   font-family: "codecBold";
   src: url(../../assets/fonts/Codec-Cold-Bold-trial.ttf) format("opentype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: "NexaBold";
