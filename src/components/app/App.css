@@ -1,0 +1,176 @@
+/* @font-face {
+  font-family: "font1";
+  src: url(../../assets/fonts/segoeuil.ttf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "segoebold";
+  src: url(../../assets/fonts/segoe-ui-bold.ttf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "universalbold";
+  src: url(../../assets/fonts/UniversalisADFStd-Bold.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "universalregular";
+  src: url(../../assets/fonts/UniversalisADFStd-Regular.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "codecBold";
+  src: url(../../assets/fonts/Codec-Cold-Bold-trial.ttf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NexaBold";
+  src: url(../../assets/fonts/NexaBold.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NexaLight";
+  src: url(../../assets/fonts/NexaLight.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "captura";
+  src: url(../../assets/fonts/Captura-BlackDemo.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} */
+/* line to remove default firefox select styles */
+@supports (-moz-appearance: none) {
+  select {
+    -moz-appearance: none !important;
+    background: transparent
+      url("data:image/gif;base64,R0lGODlhBgAGAKEDAFVVVX9/f9TU1CgmNyH5BAEKAAMALAAAAAAGAAYAAAIODA4hCDKWxlhNvmCnGwUAOw==")
+      right center no-repeat !important;
+    background-position: calc(100% - 5px) center !important;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: font1;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.homeNavLinks {
+  margin-left: 70px;
+}
+
+.homeLoginSignup {
+  margin-left: auto;
+}
+
+a.links {
+  color: #fff !important;
+  padding-right: 45px !important;
+  font-size: 17px;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 30px 50px 30px 50px !important;
+}
+
+.navbar h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .links {
+  padding-left: 10px !important;
+  color: #fff !important;
+  font-size: 17px !important;
+}
+
+a.loginsignup {
+  color: #000 !important;
+  background: #275273 !important;
+  color: #fff !important;
+  padding: 8px 25px !important;
+  border-radius: 4px !important;
+  margin-right: 10px !important;
+  font-size: 13px !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#homeFooterSection .col-md-6 .col-md-2 {
+  border-left: 1px solid #000;
+}
+
+#homeFooterSection {
+  background-color: #f5874f;
+  padding: 40px 70px 10px 70px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
+
+#homeFooterSection p.faq {
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  margin-left: -38px;
+  padding-left: 14px;
+}
+
+#homeFooterSection p.policy {
+  margin-left: -121px;
+}
+
+#homeFooterSection p.terms {
+  margin-left: -166px;
+}
+
+#homeFooterSection .col-md-6:last-child .row {
+  justify-content: flex-end;
+}
+
+#homeFooterSection div.phone-number,
+div.email {
+  text-align: right;
+}
+
+#homeFooterSection div.phone-number p {
+  margin-right: -75px;
+}
+
+#homeFooterSection div.email img {
+  margin-right: 7px;
+}
