@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
               <div className="col-md-6 email">
                 <img src={require("../../assets/img/envelope.png")} alt="" />
-                <span>support@monkheypay.com</span>
+                <span>support@softloan.com</span>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12">
             <p className="copyright">
-              Copyright &copy; 2020 Fusion Campaign. All Rights Reserved
+              Copyright &copy; 2020 SoftLoan. All Rights Reserved
             </p>
           </div>
         </div>
