@@ -24,9 +24,6 @@ const Footer = () => {
           </div>
           <div className="col-md-6 ">
             <div className="row">
-              <div className="col-md-4 phone-number">
-                <p>+2348123456789</p>
-              </div>
               <div className="col-md-6 email">
                 <img src={require("../../assets/img/envelope.png")} alt="" />
                 <span>support@softloan.com</span>
