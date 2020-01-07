@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <>
       <div id="homeFooterSection" className="container-fluid">
+<<<<<<< HEAD
         <div className="row">
           <div className="col-md-6">
             <div className="row row-1">
@@ -38,6 +39,32 @@ const Footer = () => {
             </p>
           </div>
         </div>
+=======
+        <div className="parent">
+          <div>
+            <span className="image">
+              <Link to="monkhey" className="monkhey-logo">
+                <img src={require("../../assets/img/logo.png")} alt="" />
+              </Link>
+            </span>
+            <Link className="faq">FAQ</Link>
+
+            <Link className="policy">Privacy Policy</Link>
+
+            <Link className="terms">Terms & Conditions</Link>
+          </div>
+          <div>
+            <span>
+              <img src={require("../../assets/img/envelope.png")} alt="" />
+            </span>
+            <span>support@softloan.com</span>
+          </div>
+        </div>
+
+        <p className="copyright">
+          Copyright &copy; 2020 softloan. All Rights Reserved
+        </p>
+>>>>>>> d4c97a7... Finished Homepage
       </div>
     </>
   );

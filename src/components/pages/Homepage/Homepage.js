@@ -115,16 +115,27 @@ const Homepage = () => {
         </div>
         <div className="row row-2">
           <div className="col-md-2">
+<<<<<<< HEAD
             <p>N 0.0</p>
+=======
+            <p className="zero">N 0.0</p>
+>>>>>>> d4c97a7... Finished Homepage
           </div>
           <div className="col-md-7">
             <img src={require("../../../assets/img/sf8.png")} alt="" />
           </div>
           <div className="col-md-2">
+<<<<<<< HEAD
             <p>N100,000</p>
           </div>
         </div>
         <div className="row">
+=======
+            <p className="hundred">N100,000</p>
+          </div>
+        </div>
+        <div className="row row-3">
+>>>>>>> d4c97a7... Finished Homepage
           <div className="col-md-4">
             <ul className=" first">
               <li> 15 days</li>
