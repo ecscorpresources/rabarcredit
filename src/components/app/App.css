@@ -25,20 +25,12 @@
   font-weight: normal;
   font-style: normal;
 }
-<<<<<<< HEAD
-/* @font-face {
-=======
 @font-face {
->>>>>>> d4c97a7... Finished Homepage
   font-family: "codecBold";
   src: url(../../assets/fonts/Codec-Cold-Bold-trial.ttf) format("opentype");
   font-weight: normal;
   font-style: normal;
-<<<<<<< HEAD
-} */
-=======
 }
->>>>>>> d4c97a7... Finished Homepage
 
 @font-face {
   font-family: "NexaBold";
@@ -352,9 +344,6 @@ a.loginsignup {
   justify-content: center;
 }
 
-<<<<<<< HEAD
-#homeSixthSection .row.row-2 p {
-=======
 #homeSixthSection .row.row-2 p.zero {
   display: inline-block;
   font-size: 16px;
@@ -365,16 +354,12 @@ a.loginsignup {
 }
 
 #homeSixthSection .row.row-2 p.hundred {
->>>>>>> d4c97a7... Finished Homepage
   display: inline-block;
   font-size: 16px;
   margin-right: 24px;
   font-family: NexaBold;
   color: #075e58;
-<<<<<<< HEAD
-=======
   margin-left: -64px;
->>>>>>> d4c97a7... Finished Homepage
 }
 
 #homeSixthSection .row.row-2 .col-md-2 {
@@ -417,13 +402,10 @@ a.loginsignup {
   color: #283d3c;
 }
 
-<<<<<<< HEAD
-=======
 #homeSixthSection div.row-3 {
   padding: 0px 122px;
 }
 
->>>>>>> d4c97a7... Finished Homepage
 #homeSixthSection .col-md-7 {
   text-align: center;
 }
@@ -437,67 +419,13 @@ a.loginsignup {
 
 #homeFooterSection {
   background-color: #fcb32f;
-<<<<<<< HEAD
-  padding: 40px 70px 10px 70px;
-  font-weight: bold;
-  font-size: 15px;
-  color: #fff;
-}
-
-#homeFooterSection p.faq {
-  border-left: 1px solid rgba(0, 0, 0, 0.5);
-  margin-left: -38px;
-  padding-left: 14px;
-=======
   padding: 17px 90px 10px 90px;
   font-weight: bold;
   font-size: 15px;
->>>>>>> d4c97a7... Finished Homepage
 }
 
 #homeFooterSection a {
-  text-decoration: none;
   color: #075e58;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  text-decoration: none;
-  font-size: 13px;
-}
-
-#homeFooterSection p.copyright {
-  color: #075e58;
-  font-size: 13px;
-  padding-top: 25px;
-}
-
-#homeFooterSection p.policy {
-  margin-left: -121px;
-}
-
-#homeFooterSection p.terms {
-  margin-left: -166px;
-}
-
-#homeFooterSection .col-md-6:last-child .row {
-  justify-content: flex-end;
-}
-
-#homeFooterSection div.email {
-  text-align: right;
-  color: #075e58;
-}
-
-#homeFooterSection div.phone-number p {
-  margin-right: -75px;
-  color: #075e58;
-}
-
-#homeFooterSection div.email img {
-  margin-right: 7px;
-=======
-=======
-  font-weight: 600;
->>>>>>> 5a3288c... modified css file
 }
 
 #homeFooterSection div.parent {
@@ -526,6 +454,11 @@ a.loginsignup {
   padding-right: 20px;
 }
 
+#homeFooterSection div.parent div:nth-child(1) a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
 #homeFooterSection div.parent div:nth-child(2) img {
   margin-right: 10px;
 }
@@ -533,7 +466,6 @@ a.loginsignup {
 #homeFooterSection span {
   font-weight: 400;
   color: #075e58;
-  font-weight: 600;
 }
 
 #homeFooterSection p {
@@ -541,9 +473,4 @@ a.loginsignup {
   padding-top: 20px;
   margin-bottom: 0;
   color: #fff;
-<<<<<<< HEAD
->>>>>>> d4c97a7... Finished Homepage
-=======
-  font-weight: 600;
->>>>>>> 5a3288c... modified css file
 }
