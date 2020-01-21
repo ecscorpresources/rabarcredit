@@ -18,11 +18,7 @@ const Pagenav = props => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">
-<<<<<<< HEAD
-          <h1>SoftLoan</h1>
-=======
           <img src={require("../../assets/img/Rabar Credit.png")} alt="" />
->>>>>>> homepage
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -34,11 +30,7 @@ const Pagenav = props => {
             </NavItem>
             <NavItem>
               <NavLink href="monhkey" className="links">
-<<<<<<< HEAD
-                Get A Loan
-=======
                 Products
->>>>>>> homepage
               </NavLink>
             </NavItem>
             <NavItem>
