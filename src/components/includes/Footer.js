@@ -22,7 +22,11 @@ const Footer = () => {
             <span>
               <img src={require("../../assets/img/envelope.png")} alt="" />
             </span>
+<<<<<<< HEAD
             <span>support@softloan.com</span>
+=======
+            <span>credit@rabar.com</span>
+>>>>>>> homepage
           </div>
         </div>
 

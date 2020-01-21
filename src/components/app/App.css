@@ -52,6 +52,16 @@
   font-weight: normal;
   font-style: normal;
 }
+<<<<<<< HEAD
+=======
+
+@font-face {
+  font-family: "Julietta";
+  src: url(../../assets/fonts/Julietta-Messie.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+>>>>>>> homepage
 /* line to remove default firefox select styles */
 @supports (-moz-appearance: none) {
   select {
@@ -94,7 +104,11 @@ body {
 }
 
 a.links {
+<<<<<<< HEAD
   color: #000 !important;
+=======
+  color: #fff !important;
+>>>>>>> homepage
   padding-right: 45px !important;
   font-size: 16px;
 }
@@ -113,7 +127,11 @@ a.links {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+<<<<<<< HEAD
   padding: 30px 50px 30px 50px !important;
+=======
+  padding: 10px 50px 10px 50px !important;
+>>>>>>> homepage
 }
 
 .navbar h1 {
@@ -131,14 +149,23 @@ a.links {
 
 a.loginsignup {
   color: #000 !important;
+<<<<<<< HEAD
   background: #fff !important;
   color: #000 !important;
+=======
+  background: transparent !important;
+  color: #fff !important;
+>>>>>>> homepage
   padding: 8px 25px !important;
   border-radius: 4px !important;
   margin-right: 10px !important;
   font-size: 13px !important;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
   border: 1px solid #000;
+=======
+  border: 1px solid #fff;
+>>>>>>> homepage
 }
 
 #homeFirstSection {
@@ -149,6 +176,10 @@ a.loginsignup {
   display: flex;
   flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
+=======
+  margin-top: -2px;
+>>>>>>> homepage
 }
 
 #homeFirstSection .col-md-4 {
@@ -156,6 +187,17 @@ a.loginsignup {
   margin-left: 50px;
 }
 
+<<<<<<< HEAD
+=======
+#homeFirstSection .col-md-4 h3 {
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  padding-left: 8px;
+  font-weight: 600;
+}
+
+>>>>>>> homepage
 #homeFirstSection .col-md-4 h1 {
   font-size: 45px;
   font-weight: 100;
@@ -175,6 +217,7 @@ a.loginsignup {
 }
 
 #homeSecondSection {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
 }
@@ -238,6 +281,75 @@ a.loginsignup {
 }
 
 #homeFifthSection {
+=======
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#homeSecondSection p {
+  font-size: 35px;
+  font-weight: 200;
+  padding-left: 70px;
+  margin-bottom: 0;
+}
+
+#homeSecondSection p::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 2px;
+  background-color: #ddd;
+  margin-left: 254px;
+}
+
+#homeThirdSection > .row {
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#homeThirdSection .col-md-2 {
+  text-align: center;
+}
+
+#homeThirdSection .col-md-2 p {
+  font-family: NexaLight;
+  font-size: 17px;
+}
+
+#homeThirdSection .row .col-md-2:nth-child(2),
+#homeThirdSection .row .col-md-2:nth-child(3),
+#homeThirdSection .row .col-md-2:nth-child(4) {
+  border-left: 1px solid #ddd;
+}
+
+#homeFourthSection {
+  background: url("../../assets/img/creditcard.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 474px;
+}
+
+#homeFourthSection > .row {
+  padding: 60px 140px;
+}
+
+#homeFourthSection > .row .col-md-12 {
+  text-align: right;
+}
+
+#homeFourthSection > .row .col-md-12 p {
+  font-size: 22px;
+  font-family: NexaLight;
+}
+
+#homeFourthSection h1 {
+  font-size: 35px;
+  padding-bottom: 70px;
+  font-family: NexaLight;
+}
+
+/* #homeFifthSection {
+>>>>>>> homepage
   background-color: #e1f2f1;
 }
 
@@ -313,6 +425,7 @@ a.loginsignup {
 
 #homeFifthSection .col-md-4.confirm p {
   text-align: center;
+<<<<<<< HEAD
 }
 
 #homeSixthSection {
@@ -413,6 +526,222 @@ a.loginsignup {
 #homeSixthSection .col-md-7 img {
   margin-top: -63px;
 }
+=======
+} */
+
+#homeFifthSection {
+  margin-top: -2px;
+}
+
+#homeFifthSection .col-md-8 {
+  padding: 0;
+}
+
+#homeFifthSection .col-md-8 img {
+  width: 1000px;
+  height: 150px;
+}
+
+#homeFifthSection .col-md-4 {
+  background-color: #075e58;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeFifthSection .col-md-4 a {
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  padding: 18px 40px;
+  letter-spacing: 6px;
+  font-family: NexaLight;
+  font-size: 15px;
+}
+
+#homeSixthSection .col-md-12 img {
+  width: 40px;
+  height: 41px;
+}
+
+#homeSixthSection > .row.parent_row {
+  justify-content: center;
+  padding-bottom: 255px;
+}
+
+#homeSixthSection .row.signup_row .col-md-12 {
+  display: flex;
+  /* justify-content: center; */
+}
+
+#homeSixthSection .row.signup_row .col-md-12 div {
+  padding-left: 40px;
+}
+
+#homeSixthSection .col-md-9 div.input_div {
+  display: flex;
+  flex-direction: column;
+}
+
+#homeSixthSection .col-md-9 div.radio_div {
+  display: flex;
+}
+
+#homeSixthSection .col-md-9 div.input_div input {
+  margin-bottom: 10px;
+  border: 2px solid #075e58;
+  padding-left: 10px;
+  color: #075e58;
+}
+
+#homeSixthSection .col-md-9 div.radio_div span {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(2) .col-md-9.column_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #075e58;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: NexaLight;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(2) .col-md-9.column_2 {
+  background-color: #ddd;
+  font-family: NexaLight;
+  padding-left: 72px;
+  color: #075e58;
+  margin-top: 15px;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(2) .row {
+  justify-content: center;
+}
+
+#homeSixthSection button {
+  border: none;
+  padding: 6px 67px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #075e58;
+  color: #fff;
+}
+
+#homeSixthSection label {
+  color: #075e58;
+}
+#homeSixthSection p {
+  color: #075e58;
+}
+#homeSixthSection span {
+  color: #075e58;
+}
+
+#homeSixthSection h4 {
+  color: #f58634;
+  font-weight: bold;
+}
+
+#homeSixthSection .col-md-12 h3 {
+  font-size: 35px;
+  font-family: NexaBold;
+  color: #075e58;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(1) .col-md-12 h1 {
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: NexaLight;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(2) .col-md-9.column_2 h1 {
+  font-size: 33px;
+  font-family: NexaLight;
+  color: #075e58;
+  padding-bottom: 31px;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(2) {
+  padding-top: 110px;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(2) .col-md-9.column_1 h1 {
+  font-size: 22px;
+  font-family: NexaBold;
+  color: #075e58;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(1) .col-md-12 h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #ddd;
+  margin-left: 218px;
+}
+
+#homeSixthSection > .row .col-md-5:nth-child(1) .col-md-12 p {
+  font-size: 20px;
+  font-family: NexaLight;
+  color: #075e58;
+}
+
+#homeSeventhSection {
+  background-color: #08a29f;
+}
+
+#homeSeventhSection > .row {
+  justify-content: center;
+}
+
+#homeSeventhSection .col-md-4 {
+  margin-top: -148px;
+  text-align: center;
+}
+
+#homeSeventhSection .col-md-3,
+#homeSeventhSection .col-md-5 p {
+  font-size: 28px;
+  font-family: NexaLight;
+  color: #f58634;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#homeSeventhSection .col-md-3 h1 {
+  margin-top: -46px;
+  color: #08a29f;
+  font-family: NexaBold;
+}
+#homeSeventhSection .col-md-5 h1 {
+  margin-top: -36px;
+  color: #08a29f;
+  font-family: NexaBold;
+}
+
+#homeSeventhSection .col-md-3 h2,
+#homeSeventhSection .col-md-5 h2 {
+  color: #fff;
+  font-family: Julietta;
+  font-size: 40px;
+}
+
+#homeSixthSection .col-md-9.column_2 p {
+  font-size: 22px;
+}
+
+>>>>>>> homepage
 #homeFooterSection .col-md-6 .col-md-2 {
   border-left: 1px solid #000;
 }
