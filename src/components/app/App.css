@@ -257,7 +257,83 @@ a.loginsignup {
   font-family: NexaLight;
 }
 
+#homeFifthSection {
+  background-color: #e1f2f1;
+}
 
+#homeFifthSection .row.first-row {
+  padding: 50px 0px;
+}
+
+#homeFifthSection h1 {
+  display: inline-block;
+}
+
+#homeFifthSection .col-md-12.first {
+  text-align: right;
+  color: #075e58;
+}
+
+#homeFifthSection .col-md-12 img.first-image {
+  margin-right: 176px;
+  padding-left: 20px;
+}
+
+#homeFifthSection .col-md-4.image {
+  text-align: center;
+}
+
+#homeFifthSection hr {
+  border-top: 2px solid #9ad7d6;
+  margin-bottom: 0;
+  margin-left: 827px;
+  margin-right: 114px;
+  margin-top: 0;
+}
+
+#homeFifthSection .col-md-4 {
+  color: #075e58;
+}
+
+#homeFifthSection .col-md-4 h1 {
+  font-size: 35px;
+  font-family: NexaBold;
+}
+
+#homeFifthSection .col-md-4 p {
+  font-family: NexaLight;
+}
+
+#homeFifthSection .col-md-4.right {
+  text-align: right;
+}
+
+#homeFifthSection .row.second {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#homeFifthSection .col-md-4.confirm {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+
+#homeFifthSection .col-md-4.access {
+  position: absolute;
+  top: 24%;
+  right: 0%;
+}
+
+#homeFifthSection .col-md-4.payback {
+  position: absolute;
+  top: 52%;
+  left: 0%;
+}
+
+#homeFifthSection .col-md-4.confirm p {
+  text-align: center;
+} 
 #homeFifthSection {
   margin-top: -2px;
 }

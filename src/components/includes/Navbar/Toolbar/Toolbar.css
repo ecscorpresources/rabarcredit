@@ -5,7 +5,11 @@
   width: 100%;
   background-color: #075e58;
   height: 75px;
+<<<<<<< HEAD
+  padding-right: 21px;
+=======
   padding-right: 20px;
+>>>>>>> homepage
 }
 
 .toolbar_navigation {
