@@ -257,9 +257,7 @@ a.loginsignup {
   font-family: NexaLight;
 }
 
-<<<<<<< HEAD
-=======
-/* #homeFifthSection {
+#homeFifthSection {
   background-color: #e1f2f1;
 }
 
@@ -335,9 +333,7 @@ a.loginsignup {
 
 #homeFifthSection .col-md-4.confirm p {
   text-align: center;
-} */
-
->>>>>>> homepage
+} 
 #homeFifthSection {
   margin-top: -2px;
 }
