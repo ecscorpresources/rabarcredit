@@ -1,11 +1,8 @@
 .toolbar {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   background-color: #075e58;
-  height: 75px;
-  padding-right: 20px;
+  padding: 10px 50px;
+  z-index: 1;
 }
 
 .toolbar_navigation {
@@ -47,7 +44,6 @@
 }
 
 .toolbar_navigation_items ul.login_signup a {
-  margin: 0 10px;
   color: #fff;
   background-color: transparent;
   padding: 5px 20px;
@@ -55,8 +51,12 @@
   border: 1px solid #fff;
 }
 
+.toolbar_navigation_items ul.login_signup a:first-child {
+  margin-left: 20px;
+}
+
 .toolbar_navigation_items ul.links li {
-  padding: 0 40px;
+  padding: 0 30px;
 }
 /* 
 .spacer {
