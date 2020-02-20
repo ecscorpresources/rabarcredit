@@ -177,6 +177,7 @@ const Homepage = () => {
                 <img
                   src={require("../../../assets/img/Rabar Borrower.png")}
                   alt=""
+                  className="img-fluid"
                 />
               </div>
               <div className="col-md-7">
@@ -187,7 +188,11 @@ const Homepage = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <img src={require("../../../assets/img/laptop.png")} alt="" />
+            <img
+              src={require("../../../assets/img/laptop.png")}
+              alt=""
+              className="img-fluid"
+            />
           </div>
           <div className="col-md-3">
             <h1>NOW</h1>
