@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Toolbar.css";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 
-const Toolbar = props => {
+const Toolbar = (props) => {
   return (
     <header className="toolbar">
       <nav className="toolbar_navigation">
@@ -36,10 +36,10 @@ const Toolbar = props => {
           </ul>
           <ul className="login_signup">
             <li>
-              <Link to="/">Sign Up</Link>
+              <Link to="/">SignUp</Link>
             </li>
             <li>
-              <Link to="/">Log In</Link>
+              <Link to="/">LogIn</Link>
             </li>
           </ul>
         </div>
